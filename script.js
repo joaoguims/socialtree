@@ -3,7 +3,7 @@ function toggleMode(){
   html.classList.toggle("ligth")
 
   // pegar a tag img
- /* const img = document.querySelector("#profile img")
+  const img = document.querySelector("#profile img")
 
   //subtituir a imagem
   if (html.classList.contains("ligth")){
@@ -12,5 +12,5 @@ function toggleMode(){
   } else {
     //se tiver sem ligth mode, manter imagem normal
     img.setAttribute("scr", "./assets/avatar.jpg")
-  }*/
+  }
 }
