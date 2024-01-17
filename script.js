@@ -8,9 +8,9 @@ function toggleMode(){
   //subtituir a imagem
   if (html.classList.contains("ligth")){
     //se tiver ligth mode, adicionar a imagem ligth
-    img.setAttribute("scr", "./assets/avatar-ligth.png")
+    img.setAttribute("src", "./assets/avatar-ligth.png")
   } else {
     //se tiver sem ligth mode, manter imagem normal
-    img.setAttribute("scr", "./assets/avatar.jpg")
+    img.setAttribute("src", "./assets/avatar.jpg")
   }
 }
